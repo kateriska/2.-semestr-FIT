@@ -1,0 +1,50 @@
+\documentclass[a4paper, 11pt]{article}
+\usepackage[left=2cm,text={17cm, 24cm},top=3cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[IL2]{fontenc}
+\usepackage[czech]{babel}
+\usepackage{times}
+\usepackage{geometry}
+\usepackage{cuted}
+\usepackage{lipsum}
+\setlength{\emergencystretch}{3em}
+
+\bibliographystyle{czplain}
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+\textsc{\Huge Vysoké učení technické v Brně\\ \medskip
+\huge Fakulta informačních technologií}\\
+\vspace{\stretch{0.382}}
+\LARGE Typografie a publikování\,--\,4. projekt\\
+\Huge Bibliografické citace\\
+\vspace{\stretch{0.618}}
+\Large \today \hfill         Kateřina Fořtová \newpage
+\end{center}
+\end{titlepage}
+
+\section{Historie typografie a typografie dnes}
+Hieroglyfy a piktogramy stály na~začátku psaného projevu. Měly za~následek další vývoj k~tvorbě abecedy. Ze~středověku se pak dochovalo mnoho rukopisů. Typografii jako takovou změnil vynález knihtisku v~15. století. Tištěná díla jako noviny, plakáty nebo časopisy se mezi lidmi rychle šířila. V~současné době mají designeři mnoho nových technologií, jak vytvářet typografické styly. \cite{Siebert:The_Evolution_of_Typography:_A_Brief_History}
+
+Typografie 3.0 je změnou, slova jsou šířena prostřednictvím moderních technologií. Každý může pracovat s~fonty, může je tvořit, měnit velikosti písma nebo pozici v~textu. \cite{Print:Type_3.0:_The_Future_of_Typography_Today} Jedním z~nejdůležitějším způsobů návrhu moderního fontu v~počítačové podobě je využití křivek.  Křivky mají své řídící body a dělí se na~dva základní typy -- aproximační (nemusí řídícímí body procházet) a interpolační (naopak svými řídícími body procházet musí). \cite{Jiricek:Zivy_font}
+
+Avšak ještě ve~20. století se styly tvořily prostřednictvím tužky a inkoustu. Příkladem je Eric Gill, který navrhl Gill Sans, jeden z~nejúspěšnějších fontů téže doby. Byl použit nakladatelstvím Penguin Books nebo britskou společností BBC. \cite{HOW:A_Brief_History_of_Typography_1928_-_1980}
+
+\section{Typografická pravidla}
+V~současnosti, kdy si vlastně skoro každý může vydávat tiskoviny ve vlastní úpravě, vzrůstá diskuze. Školení grafici kritizují porušování typografických pravidel. \cite{Storm:Co_se_da_jeste_napsat_o_typografii} Data se mají psát s~mezerami, značení měn a fyzikálních jednotek se oddělují pevnou mezerou, jednohláskové předložky nesmí být na~konci řádku samostatně\,\dots \cite{Cerna:Typografie} Pravidel je mnoho, ale lidé je mnohdy ani pořádně neznají, přitom jejich narušení může způsobit i velké problémy např. u~vysokoškolských diplomových prací.
+
+\section{\LaTeX}
+\LaTeX\,byl představen v~roce 1985. Vyznačuje se logickým designem na~rozdíl od~vizuálního designu dalších programů. \cite{Lamport:Latex} Každý příkaz v~\LaTeX{u} obsahuje preambuli a tělo. Prostředí \verb|picture| umožňuje vytvářet jednoduchou vektorovou grafiku. Další možnosti nabízejí rozšiřující balíčky a extérní programy. \cite{Bunka:Moznosti_grafiky} V~dnešní době je \LaTeX\,již jakýmsi standardem, co se týče sázení vědeckých prací. Vyskytuje se v~nich plno matematického obsahu, \cite{TeX_conf:Proc} a \LaTeX\,umožňuje vzorce sázet rychle a přehledně, s~možností snadné úpravy.
+
+Poslední významná aktualizace prostředí proběhla již v~roce 1991. \LaTeX\,se stal nesmírně populárním. \cite{Kopka:Latex_pruvodce}I v~současnosti nese jeho používání výhody. Může se zdát zpočátku komplikovanější jak textové editory typu Microsoft Office Word, ale uživatel, který nějaké úsilí již vyloží bude příjemně překvapen, jak mu může \LaTeX\,usnadnit práci a pozvednout zvláště důležité dokumenty na~lepší úroveň.
+
+\section{Závěrem}
+Důležitost typografie pro~naši společnost je nezaměnitelná. Vývoj se pořád posouvá dopředu, avšak stále bychom měli dbát na to, že typografie by měla být ve~své podstatě neviditelná. Její dobrá znalost však dokáže podtrhnout obsah textu a vytvořit tak dokument na~lepší profesionálnější úrovni.
+
+\newpage
+\bibliography{reference}
+
+
+\end{document}
